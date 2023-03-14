@@ -4,7 +4,6 @@ class Solution {
         int high = nums.length -1;
         int pointer = high / 2;
         while (low <= high){
-         
             if (nums[pointer] == target) {
                 return pointer;
             }  else if(target > nums[pointer]){
