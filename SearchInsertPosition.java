@@ -21,7 +21,7 @@ class Solution {
             pointer = low + (high - low) / 2;
         }
         
-        
+          // If the target value was not found, return the appropriate insertion position
         return low;
     }
 }
