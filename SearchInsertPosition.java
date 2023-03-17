@@ -17,7 +17,7 @@ class Solution {
                 high = pointer - 1;// Update the upper bound to the left of the current pointer
             }
             
-          
+          // Update the pointer to the middle of the new search range
             pointer = low + (high - low) / 2;
         }
         
