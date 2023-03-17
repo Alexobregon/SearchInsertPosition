@@ -13,8 +13,15 @@ class Solution {
                 return pointer;
             }  else if(target > nums[pointer]){// If the target is greater than the current pointer value
                 low = pointer +1;// Update the lower bound to the right of the current pointer
+            } else { // If the target is smaller than the current pointer value
+                high = pointer - 1;
             }
+            
+          
+            pointer = low + (high - low) / 2;
         }
-        return 1;
+        
+        
+        return low;
     }
 }
