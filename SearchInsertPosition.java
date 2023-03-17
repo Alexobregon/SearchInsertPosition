@@ -8,6 +8,7 @@ class Solution {
 
         // Perform a binary search for the target value
         while (low <= high){
+             // If the current pointer value is equal to the target, return the pointer index
             if (nums[pointer] == target) {
                 return pointer;
             }  else if(target > nums[pointer]){
