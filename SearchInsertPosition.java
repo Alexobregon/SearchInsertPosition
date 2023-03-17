@@ -14,7 +14,7 @@ class Solution {
             }  else if(target > nums[pointer]){// If the target is greater than the current pointer value
                 low = pointer +1;// Update the lower bound to the right of the current pointer
             } else { // If the target is smaller than the current pointer value
-                high = pointer - 1;
+                high = pointer - 1;// Update the upper bound to the left of the current pointer
             }
             
           
