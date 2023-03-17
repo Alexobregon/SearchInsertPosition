@@ -11,7 +11,7 @@ class Solution {
              // If the current pointer value is equal to the target, return the pointer index
             if (nums[pointer] == target) {
                 return pointer;
-            }  else if(target > nums[pointer]){
+            }  else if(target > nums[pointer]){// If the target is greater than the current pointer value
                 low = pointer +1;
             }
         }
