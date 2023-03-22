@@ -5,7 +5,6 @@ class Solution {
         int high = nums.length -1;
         // Initialize the pointer to the middle of the search range
         int pointer = high / 2;
-
         // Perform a binary search for the target value
         while (low <= high){
              // If the current pointer value is equal to the target, return the pointer index
